@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    overflow-y: auto;
+    background-color: #7077A1;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 40%;
+    background: #424769;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #DDE0EF;
+}
+
+#menu {
+    transition: 0.2s ease-in-out;
+}
+
+#menu:hover {
+    color: #7077A1;
+}
+
+#menubar {
+    box-shadow: 0 0 15px 0 #ECEFFF;
+    transition: 0.3s ease-in-out;
+}
+
+#top {
+    transition: 0.5s ease-in-out;
+}

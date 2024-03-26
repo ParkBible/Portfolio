@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes swing {
+    0% {
+        rotate: -2deg;
+    }
+    50% {
+        rotate: 2deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes appear {
+    from {
+      top: 20px;
+      opacity: 0.1;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+}
+
+.about.on {
+    animation-name: swing;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.description {
+    position: relative;
+}
+
+.description.on {
+    animation-name: appear;
+}
