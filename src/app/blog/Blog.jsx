@@ -19,7 +19,7 @@ export default function Blog() {
     }
 
     return (
-        <div name="Blog" className="mt-[100px] m-auto mb-[70px] text-darkest">
+        <div name="Blog" className="my-[100px] m-auto text-darkest">
             <Title name="Blog"/>
             <div className="sm:flex gap-4 justify-center">
                 {

@@ -7,12 +7,12 @@ export default function About() {
     const [isDescriptionShow, setIsDescriptionShow] = React.useState(false);
 
     return (
-        <div name="About Me" className="flex flex-col m-auto items-center">
+        <div name="About Me" className="flex flex-col m-auto items-center mt-[150px]">
             <InView onChange={setIsAboutShow}>
                 <div className={`about ${isAboutShow ? "on" : ""} w-[370px] flex flex-col bg-darker rounded-md text-white items-center p-[5px]`}>
                     <div className="w-[360px] flex flex-col border-solid border-[1px] border-white rounded-md items-center p-2">
                         <p className="text-light">
-                            Frontend Developer
+                            Web Developer
                         </p>
                         <div className="flex">
                             <span className="text-4xl">
@@ -45,14 +45,12 @@ export default function About() {
             <InView onChange={setIsDescriptionShow}>
                 <div className={`about description ${isDescriptionShow ? "on" : ""} text-center bg-light-blue rounded-md mt-3 p-3 text-darkest`}>
                     <div className="text-xl mb-3">
-                        <b className="text-darker">탐구</b>하는 개발자,&nbsp;
-                        <b className="text-darker">발전</b>하는 개발자,&nbsp;
-                        <b className="text-darker">함께</b>하는 개발자입니다.<br/>
+                        누구보다 <b className="text-darker">책임감 있는 개발자</b>입니다.
                     </div>
                     <div>
                         <b className="text-darker">Frontend</b>를 심도 있게 다루지만,&nbsp; 
                         <b className="text-darker">Full Stack 개발자</b>로서 경험을 쌓았던 만큼 Backend, DB, 서버 인프라에 이르기까지 폭넓은 시야를 가지고 일합니다.<br/>
-                        주어지는 업무와 작성한 코드에 책임감을 가지며, 사용자에게 즐겁고 편안한 기억을 주는 웹 솔루션을 만드는 데 집중합니다.<br/>
+                        주어지는 업무와 작성한 코드에 끝까지 책임감을 가지며, 사용자에게 <b>즐겁고 편안한 기억을 주는 웹 솔루션</b>을 만드는 데 집중합니다.<br/>
                         좋은 기술과 더 나은 방법을 찾아 함께 협력하고 성장하는 기회를 만들어가고자 합니다.
                     </div>
                 </div>

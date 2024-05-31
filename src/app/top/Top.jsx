@@ -2,7 +2,7 @@ import { animateScroll as scroll } from "react-scroll";
 
 export default function Top(props) {
     function handleClick() {
-        scroll.scrollTo(100);
+        scroll.scrollTo(0);
     }
 
     return (

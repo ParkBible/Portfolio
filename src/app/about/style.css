@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes swing {
-    0% {
-        rotate: -2deg;
-    }
-    50% {
-        rotate: 2deg;
-    }
-    100% {
-        rotate: 0deg;
-    }
-}
-
 @keyframes appear {
     from {
       top: 20px;

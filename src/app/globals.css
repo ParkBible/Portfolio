@@ -10,7 +10,12 @@ html, body {
     background-color: #7077A1;
 }
 
-body::-webkit-scrollbar {
+body {
+    background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+    background-size: 8px 8px;
+}
+
+/* body::-webkit-scrollbar {
     width: 15px;
 }
 
@@ -22,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background: #DDE0EF;
-}
+} */
 
 #menu {
     transition: 0.2s ease-in-out;
