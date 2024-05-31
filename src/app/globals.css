@@ -15,7 +15,7 @@ body {
     background-size: 8px 8px;
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 15px;
 }
 
@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background: #DDE0EF;
-} */
+}
 
 #menu {
     transition: 0.2s ease-in-out;
