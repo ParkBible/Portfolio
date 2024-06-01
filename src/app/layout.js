@@ -1,4 +1,5 @@
 import "./globals.css";
+import Head from 'next/head';
 
 export const metadata = {
   title: "PSK portfolio",
@@ -9,7 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head>
-        <meta name="viewport" content="width=640"/>
+        <Head>
+          <meta name="viewport" content="width=640"/>
+        </Head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;800&display=swap" rel="stylesheet"/>
