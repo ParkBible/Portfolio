@@ -21,3 +21,9 @@
     animation-fill-mode: forwards;
     animation-play-state: running;
 }
+
+#title {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
