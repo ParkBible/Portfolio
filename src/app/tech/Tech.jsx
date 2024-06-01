@@ -10,7 +10,7 @@ export default function Tech() {
     const [isShow, setIsShow] = React.useState(false);
 
     return (
-        <div name="Tech Stack" className="mt-[100px] m-auto">
+        <div name="Tech Stack" className="m-auto">
             <Title name="Tech Stack"/>
             <InView onChange={setIsShow}>
                 <div className={`tech ${isShow ? "on" : ""} flex justify-center text-darker`}>

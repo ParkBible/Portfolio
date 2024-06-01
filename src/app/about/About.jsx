@@ -43,10 +43,10 @@ export default function About() {
                 </div>
             </InView>
             <InView onChange={setIsDescriptionShow}>
+                <div id="about-title" className="text-3xl mb-3 text-darkest mt-10">
+                    누구보다 <b className="text-white font-extrabold">책임감 있는 개발자</b>입니다.
+                </div>
                 <div className={`about description ${isDescriptionShow ? "on" : ""} text-center bg-light-blue rounded-md mt-3 p-3 text-darkest`}>
-                    <div className="text-xl mb-3">
-                        누구보다 <b className="text-darker">책임감 있는 개발자</b>입니다.
-                    </div>
                     <div>
                         <b className="text-darker">Frontend</b>를 심도 있게 다루지만,&nbsp; 
                         <b className="text-darker">Full Stack 개발자</b>로서 경험을 쌓았던 만큼 Backend, DB, 서버 인프라에 이르기까지 폭넓은 시야를 가지고 일합니다.<br/>

@@ -33,15 +33,34 @@ body::-webkit-scrollbar-track {
     transition: 0.2s ease-in-out;
 }
 
-#menu:hover {
-    color: #7077A1;
+#menu-bottom-box {
+    width: 0;
 }
 
 #menubar {
-    box-shadow: 0 0 15px 0 #ECEFFF;
     transition: 0.3s ease-in-out;
 }
 
 #top {
     transition: 0.5s ease-in-out;
+}
+
+@keyframes draw {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+
+#menu-bottom-box.on {
+    animation-name: draw;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
 }

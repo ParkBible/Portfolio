@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Menu/>
       <About/>
-      <div className="rounded-lg bg-white min-[1675px]:w-[65%] max-xl:w-full w-4/5 m-auto sm:mt-[100px] sm:mb-20 py-10 sm:px-20 px-5">
+      <div className="rounded-lg bg-white min-[1675px]:w-[65%] max-xl:w-full w-4/5 m-auto sm:my-[80px] py-[80px] sm:px-20 px-5">
         <Tech/>
         <Project/>
         <Experience/>
