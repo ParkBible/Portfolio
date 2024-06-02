@@ -43,7 +43,7 @@ export default function About() {
                 </div>
             </InView>
             <InView onChange={setIsDescriptionShow}>
-                <div id="about-title" className="text-3xl mb-3 text-darkest mt-10">
+                <div id="about-title" className="text-3xl mb-3 text-darkest mt-10 ml-5">
                     누구보다 <b className="text-white font-extrabold">책임감 있는 개발자</b>입니다.
                 </div>
                 <div className={`about description ${isDescriptionShow ? "on" : ""} text-center bg-light-blue rounded-md mt-3 p-3 text-darkest`}>
