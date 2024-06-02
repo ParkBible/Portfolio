@@ -6,7 +6,7 @@ export default function Top(props) {
     }
 
     return (
-        <div id="top" onClick={() => handleClick()} className={`${!props.isVisible ? "opacity-0" : "opacity-70"} flex align-center fixed w-[70px] h-[70px] rounded-full bg-light sm:right-[200px] right-[50%] bottom-[50px] cursor-pointer z-50`}>
+        <div id="top" onClick={() => handleClick()} className={`${!props.isVisible ? "opacity-0" : "opacity-70"} flex align-center sm:fixed hidden w-[70px] h-[70px] rounded-full bg-light sm:right-[200px] bottom-[50px] cursor-pointer z-50`}>
             <img className="w-[20px] h-[30px] rotate-[270deg] m-auto" src="/images/arrow.svg" alt="arrow"/>
         </div>
     )
