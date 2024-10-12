@@ -30,7 +30,7 @@ export const ProjectInfos = [
         description: "사내 제공 서비스들을 하나의 계정 정보로 접속할 수 있게 하는 통합 플랫폼입니다.",
         company: "(주)아이지아이에스",
         date: "2023.4.9 ~",
-        role: "풀스택 개발(3인)",
+        role: "풀스택 개발(3인) - Keycloak을 통한 SSO 로그인, 제품 소개 페이지, 강의 신청, lazy Loading 적용한 FAQ 페이지 개발",
         stacks: ["TypeScript", "React", "React_Testing_Library", "Kotlin", "Spring_Boot","Kotest", "GraphQL", "MariaDB"],
         web: "https://www.dfos.kr"
     },
@@ -39,7 +39,7 @@ export const ProjectInfos = [
         description: "드론 물류배송 및 화재/재난 알림 시스템입니다. 드론의 정보와 위치, 재난 정보를 지도상에서 실시간 파악하는 기능이 포함되었습니다.",
         company: "(주)아이지아이에스, 창원시",
         date: "2023.7.3 ~ 2023.8.18",
-        role: "풀스택 개발(2인)",
+        role: "풀스택 개발(2인) - 알림 기능을 제외한 모든 기능 개발, DB 설계",
         stacks: ["TypeScript", "React", "React_Testing_Library", "Kotlin", "Spring_Boot", "Kotest", "PostgreSQL"]
     },
     {
@@ -55,7 +55,7 @@ export const ProjectInfos = [
         description: "드론 스테이션과 드론, CCTV 등 연결된 여러 기기들의 스트리밍 화면을 한눈에 볼 수 있는 서비스입니다. MQTT와 웹소켓 연결을 통해 기기의 실시간 상태 정보를 확인할 수 있도록 구현하였습니다.",
         company: "(주)아이지아이에스",
         date: "2024.8.1 ~ 2024.8.21",
-        role: "풀스택 개발(3인)",
+        role: "풀스택 개발(3인) - 퍼블리싱과 관리자 페이지를 제외한 모든 기능 개발, 관리자 페이지 리팩토링",
         stacks: ["TypeScript", "Next.js", "Spring_Boot", "PostgreSQL"],
         web: "http://dev-dfos-station-viewer.igis.co.kr/"
     }

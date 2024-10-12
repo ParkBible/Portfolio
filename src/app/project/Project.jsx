@@ -46,7 +46,7 @@ export default function Project() {
                             </div>
                             
                             <div className="flex gap-4 bg-light-blue rounded-lg px-3 pt-1 pb-2 mb-3" key={index}>
-                                <div className="flex flex-col w-[50%]">
+                                <div className="flex flex-col w-[40%]">
                                     <span className="text-sm text-dark mr-1 p-[2px]">
                                         소개
                                     </span>
@@ -58,7 +58,7 @@ export default function Project() {
                                     </span>
                                     {info.company}
                                 </div>
-                                <div className="flex flex-col w-[15%]">
+                                <div className="flex flex-col w-[25%]">
                                 <span className="text-sm text-dark mr-1 p-[2px]">
                                         역할
                                     </span>
