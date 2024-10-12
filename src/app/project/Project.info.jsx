@@ -48,7 +48,15 @@ export const ProjectInfos = [
         company: "(주)아이지아이에스",
         date: "2023.11.21 ~ 2023.12.22",
         role: "풀스택 개발(1인)",
-        stacks: ["TypeScript", "JavaScript", "React", "Node.js_Express", "SQLite"],
-        web: "http://daegu-uam-simulator.igis.co.kr:52080"
+        stacks: ["TypeScript", "JavaScript", "React", "Node.js_Express", "SQLite"]
+    },
+    {
+        title: "스테이션 스트리밍 뷰어",
+        description: "드론 스테이션과 드론, CCTV 등 연결된 여러 기기들의 스트리밍 화면을 한눈에 볼 수 있는 서비스입니다. MQTT와 웹소켓 연결을 통해 기기의 실시간 상태 정보를 확인할 수 있도록 구현하였습니다.",
+        company: "(주)아이지아이에스",
+        date: "2024.8.1 ~ 2024.8.21",
+        role: "풀스택 개발(3인)",
+        stacks: ["TypeScript", "Next.js", "Spring_Boot", "PostgreSQL"],
+        web: "http://dev-dfos-station-viewer.igis.co.kr/"
     }
 ];
