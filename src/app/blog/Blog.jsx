@@ -14,8 +14,6 @@ export default function Blog() {
             shownIdxList.splice(shownIdxList.indexOf(index), 1);
             setShownIdxList([shownIdxList]);
         }
-
-        console.log(shownIdxList);
     }
 
     return (

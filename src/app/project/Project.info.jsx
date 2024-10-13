@@ -29,7 +29,7 @@ export const ProjectInfos = [
         title: "사내 플랫폼",
         description: "사내 제공 서비스들을 하나의 계정 정보로 접속할 수 있게 하는 통합 플랫폼입니다.",
         company: "(주)아이지아이에스",
-        date: "2023.4.9 ~",
+        date: "2023.4.9 ~ ",
         role: "풀스택 개발(3인) - Keycloak을 통한 SSO 로그인, 제품 소개 페이지, 강의 신청, lazy Loading 적용한 FAQ 페이지 개발",
         stacks: ["TypeScript", "React", "React_Testing_Library", "Kotlin", "Spring_Boot","Kotest", "GraphQL", "MariaDB"],
         web: "https://www.dfos.kr"
@@ -51,12 +51,39 @@ export const ProjectInfos = [
         stacks: ["TypeScript", "JavaScript", "React", "Node.js_Express", "SQLite"]
     },
     {
-        title: "스테이션 스트리밍 뷰어",
-        description: "드론 스테이션과 드론, CCTV 등 연결된 여러 기기들의 스트리밍 화면을 한눈에 볼 수 있는 서비스입니다. MQTT와 웹소켓 연결을 통해 기기의 실시간 상태 정보를 확인할 수 있도록 구현하였습니다.",
+        title: "파노라마 관리 시스템",
+        description: "드론이 촬영한 정사영상을 이용해 파노라마를 만들고 그 파노라마를 이용해 URL 형태로 공유 가능한 배포 산출물을 제작하는 시스템입니다.",
         company: "(주)아이지아이에스",
-        date: "2024.8.1 ~ 2024.8.21",
+        date: "2024.1.17 ~ ",
+        role: "기존 프로젝트 유지보수 및 고도화 - 버그 수정, 산출물 저장 방식 개선, 탐색기 등 기능 추가",
+        stacks: ["TypeScript", "Angular", "Spring_Boot", "MariaDB"],
+        web: "https://panorama.dfos.kr/"
+    },
+    {
+        title: "스테이션 관제 시스템",
+        description: "무인으로 드론을 조작할 수 있는 '스테이션' 이라는 기기를 원격으로 관리하는 시스템입니다. 스테이션과는 MQTT 프로토콜을 이용하여 통신합니다.",
+        company: "(주)아이지아이에스",
+        date: "2024.5.27 ~ ",
+        role: "기존 프로젝트 고도화 - 웹소켓을 이용한 알림 기능, 드론 조작(렌즈 돌리기 등) 기능 추가, 미디어 탐색기 분류 기능 고도화",
+        stacks: ["JavaScript", "Go", "WebAssembly", "TailwindCSS", "AlpineJS", "PostgreSQL"],
+        web: "http://dev-dfos-station.igis.co.kr/"
+    },
+    {
+        title: "스테이션 스트리밍 뷰어",
+        description: "스테이션 관제 시스템과 연계된 서비스로, 스테이션과 드론, CCTV 등 연결된 여러 기기들의 스트리밍 화면을 한눈에 볼 수 있는 서비스입니다. MQTT 통신과 웹소켓 연결을 통해 기기의 실시간 상태 정보를 확인할 수 있도록 구현하였습니다.",
+        company: "(주)아이지아이에스",
+        date: "2024.6.18 ~ 2024.9.25",
         role: "풀스택 개발(3인) - 퍼블리싱과 관리자 페이지를 제외한 모든 기능 개발, 관리자 페이지 리팩토링",
         stacks: ["TypeScript", "Next.js", "Spring_Boot", "PostgreSQL"],
         web: "http://dev-dfos-station-viewer.igis.co.kr/"
-    }
+    },
+    {
+        title: "스테이션 관제 시스템 (마이그레이션 버전)",
+        description: "기존 스테이션 관제 시스템의 개발환경, 코드상의 많은 문제점으로 인해 유지보수가 난해하다고 판단, 새로운 프로젝트로의 마이그레이션이 결정되었습니다.",
+        company: "(주)아이지아이에스",
+        date: "2024.10.4 ~ ",
+        role: "풀스택 개발(4인) - 필요한 통신 방법 정리 및 설계, 구현 (진행 중)",
+        stacks: ["TypeScript", "React", "TailwindCSS", "Spring_Boot", "PostgreSQL"],
+        web: "http://dev-dfos-station-viewer.igis.co.kr/"
+    },
 ];

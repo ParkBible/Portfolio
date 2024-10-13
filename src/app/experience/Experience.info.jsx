@@ -6,7 +6,7 @@ export const ExperienceInfo = {
                 icon: "/images/career.png",
                 infos: [
                     {
-                        date: "2022.04~",
+                        date: "2022.04 ~",
                         title: "(주)아이지아이에스 근무"
                     }
                 ]

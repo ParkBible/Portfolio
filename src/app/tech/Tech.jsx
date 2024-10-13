@@ -22,7 +22,7 @@ export default function Tech() {
                                     <th className="bg-dark-md text-light-blue font-semibold py-2">
                                         <b>Strong</b> (프로젝트 경험)
                                     </th>
-                                    <th className="bg-dark rounded-tr-lg text-light-blue font-semibold px-[50px] py-2">
+                                    <th className="bg-dark rounded-tr-lg text-light-blue font-semibold px-[20px] py-2">
                                         <b>Tried</b> (개인 공부)
                                     </th>
                                 </tr>
