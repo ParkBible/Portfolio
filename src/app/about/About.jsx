@@ -27,10 +27,10 @@ export default function About() {
                                 ABOUT
                             </span>
                             <div className="rounded-lg border-solid border-2 border-white pt-4 pb-2 px-3 text-sm">
-                                <li className="flex">
+                                {/* <li className="flex">
                                     <img className="w-[25px] mr-2" src="/images/gmail.png" alt="github"/>
                                     p8yft8903@gmail.com
-                                </li>
+                                </li> */}
                                 <li className="flex">
                                     <img className="w-[25px] mr-2" src="/images/github.png" alt="github"/>
                                     <a href="https://github.com/parkbible">
