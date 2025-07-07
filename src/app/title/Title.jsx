@@ -6,15 +6,13 @@ export default function Title(props) {
     const [isShow, setIsShow] = React.useState(false);
 
     return (
-        <div id="title" className="flex mb-2">
+        <div id="title" className="flex mb-2" name={props.name}>
             <span className="text-5xl text-darker">
-                <p className="relative z-10 font-extrabold">
-                    {props.name}
-                </p>
+                <p className="relative z-10 font-extrabold">{props.name}</p>
                 <InView onChange={setIsShow}>
-                    <div className={`line ${isShow ? "on" : ""} relative bg-light h-4 bottom-4`}/>
+                    <div className={`line ${isShow ? "on" : ""} relative bg-light h-4 bottom-4`} />
                 </InView>
             </span>
         </div>
-    )
+    );
 }

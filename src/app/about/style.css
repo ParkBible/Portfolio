@@ -4,14 +4,43 @@
 
 @keyframes appear {
     from {
-      top: 20px;
-      opacity: 0.1;
+        top: 20px;
+        opacity: 0.1;
     }
     to {
-      top: 0;
-      opacity: 1;
+        top: 0;
+        opacity: 1;
     }
 }
+
+@keyframes cardHover {
+    0% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0px);
+    }
+    100% {
+        transform: perspective(1000px) rotateX(-5deg) rotateY(5deg) translateZ(20px);
+    }
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* @keyframes glow {
+    0%,
+    100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(100, 200, 255, 0.3);
+    }
+} */
 
 .about.on {
     animation-name: swing;
@@ -24,6 +53,36 @@
     animation-play-state: running;
 }
 
+/* 명함 카드 호버 효과 */
+.business-card {
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.business-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgba(255, 255, 255, 0.1) 50%,
+        transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.business-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
 .description {
     position: relative;
 }
@@ -33,7 +92,7 @@
 }
 
 #about-title {
-  font-family: "Orbit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

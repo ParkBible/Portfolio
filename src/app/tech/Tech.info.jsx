@@ -1,34 +1,32 @@
 export const TechInfo = {
     data: [
         {
-            type: "Language",
-            strong: ["TypeScript", "JavaScript", "Java", "Python", "Kotlin"],
+            type: "Programming Language",
+            strong: ["TypeScript", "Java"],
+            tried: ["Python", "Kotlin", "Go"]
         },
         {
-            type: "Frontend Framework",
-            strong: ["React", "Angular"],
-            tried: ["Svelte", "TailwindCSS", "AlpineJS"]
+            type: "Frontend Framework/Library",
+            strong: ["React", "Next.js"],
+            tried: ["Angular", "AlpineJS"]
+        },
+        {
+            type: "CSS Framework",
+            strong: ["TailwindCSS"]
         },
         {
             type: "Backend Framework",
-            strong: ["Spring_Boot", "Node.js_Express"],
-        },
-        {
-            type: "Full Stack Framework",
-            tried: ["Next.js", "Sveltekit"],
+            strong: ["Spring_Boot"],
+            tried: ["Node.js_Express"]
         },
         {
             type: "Database",
-            strong: ["MariaDB", "SQLite"],
-            tried: ["Oracle", "MongoDB"]
+            strong: ["PostgreSQL", "MariaDB"],
+            tried: ["SQLite", "MongoDB", "Oracle"]
         },
         {
-            type: "Testing Tool",
-            strong: ["React_Testing_Library", "JUnit", "Kotest"],
+            type: "DevOps & Infrastructure",
+            strong: ["Git", "Docker", "Nginx"],
         },
-        {
-            type: "etc.",
-            strong: ["Git", "Redmine", "Jira", "CentOS", "Apache", "Nginx", "Docker", "SonarQube", "GraphQL"],
-        }
     ]
 }
