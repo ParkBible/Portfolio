@@ -42,7 +42,7 @@ export default function Experience() {
                                 <div className="flex flex-col gap-2 rounded-lg p-2 bg-light-blue mt-2">
                                     {item.contents.infos.map((info, infoIndex) => (
                                         <Fragment key={infoIndex}>
-                                            <li>
+                                            <li className="list-none">
                                                 <b className="text-lg">{info.title}</b> ({info.date}
                                                 )
                                                 {info.remarks &&

@@ -2,10 +2,10 @@ export const ProjectInfos = [
     {
         title: "스테이션 관제 시스템 (마이그레이션 버전)",
         description:
-            "기존 Vanila JavaScript 및 Alpine.js로 구현된 레거시 코드의 복잡한 UI 구조의 유지보수 한계를 극복하고자 React 기반으로 전체 아키텍처를 재구성하였습니다. 컴포넌트 단위 설계, 상태 관리 체계 도입 등 유지보수성과 확장성을 고려한 마이그레이션을 주도하였습니다.",
+            "기존 Vanila JavaScript 및 Alpine.js로 구현된 레거시 코드의 복잡한 UI 구조의 유지보수 한계를 극복하고자 React 기반으로 전체 아키텍처를 재구성하였습니다. 컴포넌트 단위 설계, 상태 관리 체계 도입 등 유지보수성과 확장성을 고려해 마이그레이션하였습니다.",
         company: "(주)아이지아이에스",
         date: "2024.10 ~ ",
-        role: "5인 개발 - 실시간 MQTT 통신 기반 UI 구현, 페이지 전환 없는 SPA 구조 설계 및 상태 관리 구현",
+        role: "5인 개발(20%) - 실시간 MQTT 통신 기반 UI 구현, 페이지 전환 없는 SPA 구조 설계 및 상태 관리 구현",
         stacks: ["React", "TypeScript", "TailwindCSS", "Spring_Boot", "PostgreSQL"],
     },
     {
@@ -14,7 +14,7 @@ export const ProjectInfos = [
             "스테이션과 드론, CCTV의 실시간 영상 스트리밍을 통합하여 보여주는 서비스입니다.",
         company: "(주)아이지아이에스",
         date: "2024.06 ~ 2024.09",
-        role: "3인 개발 - WebSocket을 통한 기기별 상태 모니터링 및 반응형 레이아웃 최적화",
+        role: "3인 개발(60%) - WebSocket을 통한 기기별 상태 모니터링 및 반응형 레이아웃 최적화",
         stacks: ["React", "TypeScript", "Spring_Boot", "PostgreSQL"],
     },
     {
@@ -41,7 +41,7 @@ export const ProjectInfos = [
             "CesiumJS 기반 3D 지도에 드론 모델을 시나리오에 따라 시뮬레이션하는 시스템입니다. React로 컨트롤 UI(배속, 일시정지, 되감기 등)를 구성하고, 프론트에서 시뮬레이션 타이밍과 사용자 조작 간 상호작용을 처리하였습니다.",
         company: "(주)아이지아이에스",
         date: "2023.11 ~ 2023.12",
-        role: "1인 개발 - 3D 지도 기반 시뮬레이션 구현, React UI 구성, 날씨 API 연동 및 DB 스케줄링 처리",
+        role: "1인 개발(100%) - 3D 지도 기반 시뮬레이션 구현, React UI 구성, 날씨 API 연동 및 DB 스케줄링 처리",
         stacks: ["React", "TypeScript", "Node.js_Express", "SQLite"],
     },
     {
@@ -50,7 +50,7 @@ export const ProjectInfos = [
             "실시간 드론 배송/재난 데이터를 지도 상에서 시각화하고, 사용자에게 실시간 상태 정보를 제공하는 관제 시스템입니다. React 기반 UI를 구성하고, 지도 연동 기능 및 각종 상태 표시 컴포넌트를 개발하였습니다.",
         company: "(주)아이지아이에스, 창원시",
         date: "2023.07 ~ 2023.08",
-        role: "2인 개발 - UI 구성, 실시간 지도 상태 표시, View 테이블 기반 데이터 흐름 구성, 프론트/백 양단에서 TDD 방식 적용",
+        role: "2인 개발(80%) - UI 구성, 실시간 지도 상태 표시, View 테이블 기반 데이터 흐름 구성, 프론트/백 양단에서 TDD 방식 적용",
         stacks: [
             "React",
             "TypeScript",
@@ -67,7 +67,7 @@ export const ProjectInfos = [
             "사내 서비스에 통합 계정으로 접근 가능한 SSO 기반 플랫폼입니다. 포털, 사용자 콘솔, 백오피스의 세 가지 사이트로 구성되어 있습니다. TDD 방식으로 테스트 코드를 작성하였습니다.",
         company: "(주)아이지아이에스",
         date: "2023.04 ~ ",
-        role: "3인 개발 - 제품 소개와 강의 신청, FAQ를 비롯한 기능성 페이지들의 UI와 플로우 구성, Keycloak 연동을 통해 인증/인가 구현, 테스트 코드 작성",
+        role: "3인 개발(30%) - 제품 소개와 강의 신청, FAQ를 비롯한 기능성 페이지들의 UI와 플로우 구성, Keycloak 연동을 통해 인증/인가 구현, 테스트 코드 작성",
         stacks: [
             "React",
             "TypeScript",
@@ -85,7 +85,7 @@ export const ProjectInfos = [
             "실시간 대기 정보를 지도상에 시각화하고, 통계 데이터를 차트 형태로 제공하는 환경 모니터링 웹 애플리케이션입니다. Angular 기반으로 폴리곤 시각화, 차트 렌더링 UI 및 상태 관리 구조를 구성하였습니다.",
         company: "(주)아이지아이에스",
         date: "2022.10 ~ 2023.01",
-        role: "1인 개발 - 시각화 UI 구현, Angular 상태 관리 구성, 백엔드 로직 및 배포 자동화",
+        role: "1인 개발(100%) - 시각화 UI 구현, Angular 상태 관리 구성, 백엔드 로직 및 배포 자동화",
         stacks: ["Angular", "TypeScript", "Jasmine", "Java", "Spring_Boot", "Junit", "MariaDB"],
     },
 ];
@@ -107,7 +107,7 @@ export const SideProjectInfos = [
             "기본 HTML <table> 요소의 반응형 한계를 개선하고, 재사용 가능한 UI 컴포넌트를 제공하는 React 기반 라이브러리를 직접 개발하여 오픈소스로 배포, GitHub Actions를 이용한 CI/CD 파이프라인을 구축하였습니다.",
         company: "개인 프로젝트",
         date: "2025.04",
-        role: "1인 개발 – 환경 구성부터 테스트, 배포 및 오픈소스 관리까지 전반 담당",
+        role: "1인 개발(100%) – 환경 구성부터 테스트, 배포 및 오픈소스 관리까지 전반 담당",
         stacks: ["React", "TypeScript", "Vitest"],
         git: "https://www.npmjs.com/package/react-split-table",
     },
