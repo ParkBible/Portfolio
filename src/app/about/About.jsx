@@ -88,10 +88,9 @@ export default function About() {
             </InView>
             <InView onChange={setIsDescriptionShow}>
                 <div id="about-title" className="text-3xl mb-3 text-darkest mt-10 ml-5">
-                    기획과 사용자 사이,
                     <span className="text-white font-extrabold ml-1">
                         <Typewriter
-                            words={["프론트엔드의 역할을 잘 아는 개발자"]}
+                            words={["동료와 함께 성장하는"]}
                             loop={1}
                             cursor
                             cursorStyle="_"
@@ -100,7 +99,7 @@ export default function About() {
                             delaySpeed={1500}
                         />
                     </span>
-                    입니다.
+                    웹 개발자입니다.
                 </div>
                 <div
                     className={`about description ${
@@ -108,25 +107,22 @@ export default function About() {
                     } text-center bg-light-blue rounded-md mt-3 p-3 text-darkest lg:min-w-[900px]`}
                 >
                     <div>
+
                         <p>
-                            사용자와 가장 가까운 곳에서{" "}
-                            <b>기능뿐 아니라 경험까지 고민하는 프론트엔드 개발자</b>입니다.
-                        </p>
-                        <p>
-                            2022년부터 프론트엔드와 백 양단을 개발하며 10여 개의 다양한 웹
+                            2022년부터 <b>프론트엔드와 백 양단을 개발</b>하며 10여 개의 다양한 웹
                             애플리케이션 프로젝트를 진행해 왔습니다.
                         </p>
                         <p>
-                            기획 의도와 사용자 흐름을 이해하고, 작은 클릭에도 의도가 있는 UI를
-                            만들기 위해 고민합니다.
+                            풀스택 경험을 살려 서비스의 전체적인 흐름을 이해하고, 작은 요소 하나에도
+                            의도를 명확히 담기 위해 고민합니다.
                         </p>
                         <p>
-                            현업과 부트캠프에서 각각 팀을 리딩하며 역할 분담과 일정 조율을 경험했고,
-                            협업 중심의 개발 문화에 익숙합니다.
+                            현업과 부트캠프에서 <b>애자일, 코드 리뷰와 DevOps 프로세스</b>를 경험하며{" "}
+                            <b>팀 중심 개발 문화</b>에 익숙합니다.
                         </p>
                         <p>
-                            좋은 기술과 더 나은 방법을 함께 탐색하고, 협업과 리뷰, 지속적인 개선의
-                            즐거움을 아는 동료가 되고 싶습니다.
+                            좋은 기술과 더 나은 방법을 함께 탐색하고, <b>협업과 리뷰, 지속적인 개선</b>의
+                            즐거움을 전파하는 동료가 되고 싶습니다.
                         </p>
                     </div>
                 </div>
