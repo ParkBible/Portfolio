@@ -22,7 +22,7 @@ export const TechInfo = {
         {
             type: "Database",
             strong: ["PostgreSQL", "MariaDB"],
-            tried: ["SQLite", "MongoDB", "Oracle"]
+            tried: ["SQLite", "MongoDB", "Redis"]
         },
         {
             type: "DevOps & Infrastructure",

@@ -9,6 +9,15 @@ export const ProjectInfos = [
         stacks: ["React", "TypeScript", "TailwindCSS", "Spring_Boot", "PostgreSQL"],
     },
     {
+        title: "통합 회원관리(IAM) 시스템",
+        description:
+            "사내 여러 웹 솔루션에서 공통으로 사용하는 인증·인가 체계를 통합하기 위해 JWT 토큰 방식으로 SSO 기반의 회원관리 서비스를 개발했습니다. Redis 및 RabbitMQ를 이용해 유저 정보 동기화를 안정적으로 처리하도록 아키텍처를 개편했습니다. 기존 서비스들의 레거시 인증 로직에서 발생하던 보안 취약점을 개선하였습니다.",
+        company: "(주)아이지아이에스",
+        date: "2025.11 ~ ",
+        role: "1인 개발 (아키텍처 협의 후 단독 구현)",
+        stacks: ["Spring_Boot", "Java", "PostgreSQL", "Redis", "RabbitMQ"],
+    },
+    {
         title: "스테이션 스트리밍 뷰어",
         description:
             "스테이션과 드론, CCTV의 실시간 영상 스트리밍을 통합하여 보여주는 서비스입니다.",
@@ -91,6 +100,15 @@ export const ProjectInfos = [
 ];
 
 export const SideProjectInfos = [
+    {
+        title: "'Forkmeet'",
+        description:
+            "직장인 대상 점심메이트 매칭 서비스입니다. 현재 개발 중이며 UI 프로토타입 및 매칭 로직 설계 단계 진행 중에 있습니다.",
+        company: "개인 프로젝트(5인 팀)",
+        date: "2025.10 ~ ",
+        role: "프론트엔드 개발 - 프로젝트 환경 세팅",
+        stacks: ["Next.js", "TypeScript", "TailwindCSS"],
+    },
     {
         title: "이커머스 '801 Coffee'",
         description:
