@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <div className="bg-light-blue  mt-[150px] pt-5 px-10 pb-[50px] text-center">
-            <p className="text-slate-500">Copyright © 2025 Park Seong Kyeong</p>
+            <p className="text-slate-500">Copyright © 2026 Park Seong Kyeong</p>
             <p className="text-slate-500">
                 <b>contact</b> | p8yft8903@gmail.com
             </p>
