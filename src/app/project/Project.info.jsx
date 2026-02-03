@@ -4,7 +4,7 @@ export const ProjectInfos = [
         description:
             "기존 Vanila JavaScript 및 Alpine.js로 구현된 레거시 코드의 복잡한 UI 구조의 유지보수 한계를 극복하고자 React 기반으로 전체 아키텍처를 재구성하였습니다. 컴포넌트 단위 설계, 상태 관리 체계 도입 등 유지보수성과 확장성을 고려해 마이그레이션하였습니다.",
         company: "(주)아이지아이에스",
-        date: "2024.10 ~ ",
+        date: "2024.10 ~ 2025.12",
         role: "5인 개발(20%) - 실시간 MQTT 통신 기반 UI 구현, 페이지 전환 없는 SPA 구조 설계 및 상태 관리 구현",
         web: "https://station.dfos.kr/",
         stacks: ["React", "TypeScript", "TailwindCSS", "Spring_Boot", "PostgreSQL"],
@@ -14,7 +14,7 @@ export const ProjectInfos = [
         description:
             "사내 여러 웹 솔루션에서 공통으로 사용하는 인증·인가 체계를 통합하기 위해 JWT 토큰 방식으로 SSO 기반의 회원관리 서비스를 개발했습니다. Redis 및 RabbitMQ를 이용해 유저 정보 동기화를 안정적으로 처리하도록 아키텍처를 개편했습니다. 기존 서비스들의 레거시 인증 로직에서 발생하던 보안 취약점을 개선하였습니다.",
         company: "(주)아이지아이에스",
-        date: "2025.11 ~ ",
+        date: "2025.11 ~ 2025.12",
         role: "1인 개발 (아키텍처 협의 후 단독 구현)",
         stacks: ["Spring_Boot", "Java", "PostgreSQL", "Redis", "RabbitMQ"],
     },
@@ -32,7 +32,7 @@ export const ProjectInfos = [
         description:
             "무인으로 드론을 조작할 수 있는 기기인 '스테이션'을 원격으로 관리하는 시스템입니다. MQTT 프로토콜을 이용하여 통신합니다.",
         company: "(주)아이지아이에스",
-        date: "2024.05 ~ ",
+        date: "2024.05 ~ 2024.09",
         role: "기존 프로젝트 고도화 - WebSocket을 통한 알림 기능과 드론 조작 기능",
         stacks: ["AlpineJS", "JavaScript", "TailwindCSS", "Go", "WebAssembly", "PostgreSQL"],
     },
@@ -41,7 +41,7 @@ export const ProjectInfos = [
         description:
             "드론이 촬영한 낱장 사진을 기반으로 파노라마를 생성하고, 이를 웹 링크 형태로 공유 가능한 형태로 가공하는 시스템입니다. Angular 기반으로 구현된 레거시 UI의 기능 개선 및 시각화 고도화를 담당하였습니다.",
         company: "(주)아이지아이에스",
-        date: "2024.01 ~ ",
+        date: "2024.01 ~ 2024.03",
         role: "기존 프로젝트 유지보수 및 고도화 - 엑셀 기반 데이터 시각화 UI 추가, 작업물 저장 방식 개선, 탐색기 기능 고도화, 기타 버그 수정",
         web: "https://panorama.dfos.kr/",
         stacks: ["Angular", "TypeScript", "Spring_Boot", "MariaDB"],
