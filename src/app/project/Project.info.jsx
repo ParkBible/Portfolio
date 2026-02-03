@@ -6,6 +6,7 @@ export const ProjectInfos = [
         company: "(주)아이지아이에스",
         date: "2024.10 ~ ",
         role: "5인 개발(20%) - 실시간 MQTT 통신 기반 UI 구현, 페이지 전환 없는 SPA 구조 설계 및 상태 관리 구현",
+        web: "https://station.dfos.kr/",
         stacks: ["React", "TypeScript", "TailwindCSS", "Spring_Boot", "PostgreSQL"],
     },
     {
@@ -42,6 +43,7 @@ export const ProjectInfos = [
         company: "(주)아이지아이에스",
         date: "2024.01 ~ ",
         role: "기존 프로젝트 유지보수 및 고도화 - 엑셀 기반 데이터 시각화 UI 추가, 작업물 저장 방식 개선, 탐색기 기능 고도화, 기타 버그 수정",
+        web: "https://panorama.dfos.kr/",
         stacks: ["Angular", "TypeScript", "Spring_Boot", "MariaDB"],
     },
     {
@@ -75,8 +77,9 @@ export const ProjectInfos = [
         description:
             "사내 서비스에 통합 계정으로 접근 가능한 SSO 기반 플랫폼입니다. 포털, 사용자 콘솔, 백오피스의 세 가지 사이트로 구성되어 있습니다. TDD 방식으로 테스트 코드를 작성하였습니다.",
         company: "(주)아이지아이에스",
-        date: "2023.04 ~ ",
+        date: "2023.04 ~ 2023.09",
         role: "3인 개발(30%) - 제품 소개와 강의 신청, FAQ를 비롯한 기능성 페이지들의 UI와 플로우 구성, Keycloak 연동을 통해 인증/인가 구현, 테스트 코드 작성",
+        web: "https://www.dfos.kr/",
         stacks: [
             "React",
             "TypeScript",
@@ -100,15 +103,15 @@ export const ProjectInfos = [
 ];
 
 export const SideProjectInfos = [
-    {
-        title: "'Forkmeet'",
-        description:
-            "직장인 대상 점심메이트 매칭 서비스입니다. 현재 개발 중이며 UI 프로토타입 및 매칭 로직 설계 단계 진행 중에 있습니다.",
-        company: "개인 프로젝트(5인 팀)",
-        date: "2025.10 ~ ",
-        role: "프론트엔드 개발 - 프로젝트 환경 세팅",
-        stacks: ["Next.js", "TypeScript", "TailwindCSS"],
-    },
+    // {
+    //     title: "'Forkmeet'",
+    //     description:
+    //         "직장인 대상 점심메이트 매칭 서비스입니다. 현재 개발 중이며 UI 프로토타입 및 매칭 로직 설계 단계 진행 중에 있습니다.",
+    //     company: "개인 프로젝트(5인 팀)",
+    //     date: "2025.10 ~ ",
+    //     role: "프론트엔드 개발 - 프로젝트 환경 세팅",
+    //     stacks: ["Next.js", "TypeScript", "TailwindCSS"],
+    // },
     {
         title: "이커머스 '801 Coffee'",
         description:
